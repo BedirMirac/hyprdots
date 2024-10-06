@@ -47,8 +47,8 @@ To install, execute the following commands:
 
 ```shell
 pacman -Sy git
-git clone --depth 1 https://github.com/prasanthrangan/hyprdots ~/HyDE
-cd ~/HyDE/Scripts
+git clone --depth 1 https://github.com/BedirMirac/hyprdots
+cd hyprdots
 ./install.sh
 ```
 
@@ -69,7 +69,7 @@ For more details, please refer to the [installation wiki](https://github.com/pra
 To update HyDE, you will need to pull the latest changes from GitHub and restore the configs by running the following commands:
 
 ```shell
-cd ~/HyDE/Scripts
+cd hyprdots/Scripts
 git pull
 ./install.sh -r
 ```
